@@ -5,37 +5,42 @@ BidVault is a modern, MERN-stack web application designed for creating, managing
 
 # *Technologies Used*
 
-MongoDB: A NoSQL database for storing auction data, user profiles, and bid histories, ensuring scalability and flexibility.
+* MongoDB: A NoSQL database for storing auction data, user profiles, and bid histories, ensuring scalability and flexibility.
 
-Express.js: A Node.js framework for building the backend API, handling requests, and managing auction logic.
+* Express.js: A Node.js framework for building the backend API, handling requests, and managing auction logic.
 
-React: A JavaScript library for creating a dynamic, component-based frontend with responsive UI elements like modals and cards.
+* React: A JavaScript library for creating a dynamic, component-based frontend with responsive UI elements like modals and cards.
 
-Node.js: The runtime environment for the backend, enabling real-time features and server-side logic.
+* Node.js: The runtime environment for the backend, enabling real-time features and server-side logic.
 
-Node-Cron: A task scheduling library for automating auction start/end times and status updates (e.g., closing auctions when the timer expires).
+* Node-Cron: A task scheduling library for automating auction start/end times and status updates (e.g., closing auctions when the timer expires).
 
-JSON Web Tokens (JWT): Used for secure user authentication and authorization, ensuring protected access to user-specific features like bidding and profile management.
+* bcrypt.js: A JavaScript library for hashing passwords, used in the backend (Node.js/Express) to securely store user credentials, ensuring robust authentication with salted hashing.
 
-Tailwind CSS: A utility-first CSS framework for styling the UI with responsive designs, gradients, and animations.
+* JSON Web Tokens (JWT): Used for secure user authentication and authorization, ensuring protected access to user-specific features like bidding and profile management.
 
-React Router: Manages client-side routing for navigating between pages like YourBids, Customer Profile, and auction dashboards.
+* Tailwind CSS: A utility-first CSS framework for styling the UI with responsive designs, gradients, and animations.
+
+* React Router: Manages client-side routing for navigating between pages like YourBids, Customer Profile, and auction dashboards.
+
+* Framer Motion: A React animation library used for advanced, declarative animations, such as cursor tracking visuals and interactive UI elements, providing smooth and performant transitions.
+  
 
 # *Features*
 
-Auction Creation and Management: Users can create and edit auctions with details like title, start/end time, starting bid, increment, category, condition, and description via intuitive modals.
+* Auction Creation and Management: Users can create and edit auctions with details like title, start/end time, starting bid, increment, category, condition, and description via intuitive modals.
 
-Real-Time Bidding: Enables live bidding with instant updates, ensuring a dynamic and competitive auction environment.
+* Real-Time Bidding: Enables live bidding with instant updates, ensuring a dynamic and competitive auction environment.
 
-Bid Leaderboard: Displays top bidders for each auction, ranked by bid amount, fostering engagement and transparency.
+* Bid Leaderboard: Displays top bidders for each auction, ranked by bid amount, fostering engagement and transparency.
 
-YourBids Page: A card-based UI showcasing a user's active and past bids for easy tracking.
+* YourBids Page: A card-based UI showcasing a user's active and past bids for easy tracking.
 
-Customer Profile: Allows users to manage personal details, view bidding history, and customize their experience.
+* Customer Profile: Allows users to manage personal details, view bidding history, and customize their experience.
 
-Auction Statistics: Tracks total, live, and ended auctions, along with revenue data, presented in a clear, visual format.
+* Auction Statistics: Tracks total, live, and ended auctions, along with revenue data, presented in a clear, visual format.
 
-Responsive UI: Built with Tailwind CSS, featuring indigo-gray tones, gradients, and animations for a professional, modern aesthetic.
+* Responsive UI: Built with Tailwind CSS, featuring indigo-gray tones, gradients, and animations for a professional, modern aesthetic.
 
 
 
