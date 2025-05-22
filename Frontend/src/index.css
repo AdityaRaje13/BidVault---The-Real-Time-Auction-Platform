@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Hide vertical scrollbar */
+.hide-scrollbar {
+    overflow-y: scroll; /* Enable vertical scrolling */
+    scrollbar-width: none; /* For Firefox */
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+  }

@@ -1,0 +1,62 @@
+.sidebar{
+    width: 350px;
+    height: 530px;
+    border-radius: 20px;
+}
+
+.auction-cards{
+    width: 950px;
+    height: 530px;
+    border-radius: 20px;
+}
+
+.main-container{
+    height: 100vh;
+}
+
+.auction-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.product-names{
+    list-style-type: disc;
+}
+
+.auction-card{
+    width: 250px;
+}
+
+.auction-card img{
+    height: 130px;
+    width: 300px;
+}
+
+
+
+/* Tablets */
+@media (max-width: 768px) {
+    
+}
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+    .auction-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .auction-cards-container{
+        margin: 0px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap:20px;
+    }
+}

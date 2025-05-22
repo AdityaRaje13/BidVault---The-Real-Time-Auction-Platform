@@ -1,0 +1,82 @@
+@keyframes blurToClear {
+    from{
+        opacity: 0;
+        scale : 0.8;
+    }
+    to{
+        opacity: 1;
+        scale : 1;
+    }
+}
+
+.customer-hero{
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-card{
+    box-shadow: 25px 25px 40px rgb(42, 41, 41);
+    z-index: 1;
+}
+
+.gradient-bg{
+    background: linear-gradient( rgb(240, 254, 254) 10%, rgb(193, 243, 248) 50%, rgb(174, 235, 255) 90%);
+    animation: blurToClear 1s linear;
+}
+
+.category:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease-in-out; 
+}
+
+
+
+/* Tablets */
+@media (max-width: 768px) {
+
+    .category-cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #product-categories{
+        padding: 10px;
+    }
+
+    #live-auctions{
+        padding: 10px;
+    }
+
+    #statistics{
+        padding: 10px;
+    }
+    
+}
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+    .category-cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #product-categories{
+        padding: 10px;
+    }
+
+    #live-auctions{
+        padding: 10px;
+    }
+
+    #statistics{
+        padding: 10px;
+    }
+}
