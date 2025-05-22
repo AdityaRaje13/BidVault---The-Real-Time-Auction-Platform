@@ -24,11 +24,17 @@ React Router: Manages client-side routing for navigating between pages like Your
 # *Features*
 
 Auction Creation and Management: Users can create and edit auctions with details like title, start/end time, starting bid, increment, category, condition, and description via intuitive modals.
+
 Real-Time Bidding: Enables live bidding with instant updates, ensuring a dynamic and competitive auction environment.
+
 Bid Leaderboard: Displays top bidders for each auction, ranked by bid amount, fostering engagement and transparency.
+
 YourBids Page: A card-based UI showcasing a user's active and past bids for easy tracking.
+
 Customer Profile: Allows users to manage personal details, view bidding history, and customize their experience.
+
 Auction Statistics: Tracks total, live, and ended auctions, along with revenue data, presented in a clear, visual format.
+
 Responsive UI: Built with Tailwind CSS, featuring indigo-gray tones, gradients, and animations for a professional, modern aesthetic.
 
 
